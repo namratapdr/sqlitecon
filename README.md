@@ -1,2 +1,2 @@
 # sqlitecon
-Connect , CREATE &lt; INSERT , UPDATE, SELECT and DELETE your SQLite Database with  running just one script.
+Connect , CREATE , INSERT , UPDATE, SELECT and DELETE your SQLite Database with  running just one script.
