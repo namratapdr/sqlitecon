@@ -11,10 +11,10 @@ def connectdb(dbname):
     except:
         print("Error in connection.")
 db=connectdb(dbname)
-
+cursordb = db.cursor()
 def set_db(dbname):
     db=connectdb(dbname)
-cursordb = db.cursor()
+    cursordb = db.cursor()
 def closedb():
     print("Connection to database is closed.")
     db.close() #closes the connection
@@ -48,4 +48,3 @@ def fetch():
             print(rec)
     except:
         print("Error in operation.")
-
